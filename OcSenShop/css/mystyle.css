@@ -1,0 +1,131 @@
+body
+   {
+        position: relative; 
+background-color: #F9CFCF;
+   }
+.carousel-inner img
+   {
+        width: 100%; 
+        margin: 0px;
+        min-height:300px;
+   }
+@media (max-width: 600px) 
+   {
+        .carousel-caption { display: none; }
+   }
+.affix 
+   {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+      background-color: #F9CFCF;
+   }
+.navbar
+   {
+      margin-bottom: 0px;
+      background-color:#FEF5F5 ;
+      padding: 10px;
+
+   }
+.navbar li a, .navbar .navbar-brand {
+      color: #FF8CA1 !important;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: pink !important;
+  }
+
+.affix ~ .container-fluid
+   {
+     position: relative;
+     top: 50px;
+   }
+
+h3 { font-size: 30px; font-family: Monospace, Helvetica, sans-serif;}
+h5.sansserif { color:#535550; font-size: 14px; font-family: Monospace, Helvetica, sans-serif;}
+h6.sansserif {  font-size: 11px; font-family: Monospace, Helvetica, sans-serif;}
+h2.sansserif { color:#535550; font-size: 45px; font-family: Monospace, Helvetica, sans-serif;}
+p.sansserif {  font-size: 14px; font-family: Monospace, Helvetica, sans-serif;}
+h5 {
+    margin: 40px 0 0 0}
+p{ margin: 10px}
+
+footer {
+   background-color: #ffefef;
+   bottom: 0;
+   width: 100%;
+ }
+a {
+    text-decoration: none;
+/* Pagination links */
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+    background-color: pink;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+}
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/*style form*/
+input[type=email] {
+    border: 2px solid hotpink;
+    border-radius: 4px;
+    width: 40%;
+    
+}
+input[type=password] {
+    border: 2px solid hotpink;
+    border-radius: 4px;
+    width: 40%;
+   
+}
+input[type=text] {
+    border: 2px solid hotpink;
+    border-radius: 4px;
+    width: 40%;
+   
+}
+input[type=number] {
+    border: 2px solid hotpink;
+    border-radius: 4px;
+    width: 40%;
+   
+}
+input[type=search] {
+    border: 2px solid hotpink;
+    border-radius: 5px;
+    width: 80%;
+   
+}
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
